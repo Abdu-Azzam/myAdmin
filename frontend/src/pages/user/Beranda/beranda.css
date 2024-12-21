@@ -1,0 +1,94 @@
+.beranda {
+  width: 100%;
+  min-height: 100vh;
+  text-align: left;
+  font-size: 20px;
+  font-family: Inter;
+  background-image: url("/assets/images/bg front end.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.sewaWrapper {
+  position: absolute;
+  top: 500px;
+  left: 86px;
+  border-radius: 5px;
+  background-color: #ff2020;
+  height: 56px;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 32px;
+  box-sizing: border-box;
+}
+
+.sewaWrapper:hover {
+  background-color: #e60000;
+}
+.sewa {
+  color: #d62424;
+  font-weight: bold;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+}
+
+.tag {
+  position: absolute;
+  top: 400px;
+  left: 86px;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+}
+
+.sewaContainer {
+  position: absolute;
+  top: 300px;
+  left: 86px;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  display: inline-block;
+  width: 428px;
+  height: 108px;
+}
+
+.sewaText {
+  margin: 0;
+  font-weight: bold;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.modal-button {
+  background-color: #ff2020;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s;
+}
+
+.modal-button:hover {
+  background-color: #e60000;
+}

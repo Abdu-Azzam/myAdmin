@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f1e4;
+}
+
+.sidebar {
+  background-color: #ff6f61;
+  height: calc(100vh - 50px); /* Tinggi dikurangi tinggi header */
+  padding-top: 70px; /* Tambahkan padding agar isi tidak tertimpa header */
+  position: fixed;
+  top: 50px; /* Mulai di bawah header */
+  left: 0;
+  width: 200px; /* Lebar sidebar */
+}
+
+.sidebar a {
+  color: white;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.sidebar a:hover {
+  background-color: #ff4b3a;
+}
+.header {
+  background-color: #ff3b30;
+  padding: 10px;
+  color: white;
+  text-align: start;
+  width: 100%; /* Memastikan lebar penuh */
+  position: fixed; /* Tetap di atas meskipun halaman di-scroll */
+  top: 0; /* Menempel di atas */
+  left: 0; /* Menempel di kiri */
+  z-index: 1000; /* Supaya berada di atas elemen lain */
+  display: flex; /* Untuk tata letak yang lebih baik */
+  align-items: center; /* Vertikal tengah */
+}
+
+.content {
+  padding: 20px;
+}
+.content-container {
+  width: 100%; /* Memastikan kontainer selebar halaman */
+  height: calc(100vh - 50px); /* Kurangi tinggi header */
+  margin-top: 50px; /* Sesuaikan dengan tinggi header */
+  display: flex;
+  justify-content: center; /* Menengahkan secara horizontal */
+  align-items: flex-start; /* Memastikan konten berada di atas */
+  margin-left: 400px;
+}
+
+.content h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}
+
+.btn-custom {
+  background-color: #ff3b30;
+  color: white;
+  border-radius: 20px;
+  padding: 5px 20px;
+  border: none;
+}
+
+.btn-edit,
+.btn-delete {
+  background-color: #ff3b30;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}

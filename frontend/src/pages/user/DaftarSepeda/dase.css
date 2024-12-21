@@ -1,0 +1,127 @@
+.daftar-sepeda {
+    width: 100%;
+    background-color: #faefde;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    color: #616161;
+    outline: none;
+    padding: 0 10px;
+    border-radius: 50px;
+}
+.search-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-title {
+    font-size: 32px;
+    color: #FF2020;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    margin-left: 100px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: #F9F7F7;
+    border-radius: 50px;
+    box-shadow: 2px 6px 4px rgba(144, 139, 139, 0.4);
+    margin-right: 100px;
+}
+
+.search-text {
+    font-size: 18px;
+    color: #616161;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 10px;
+}
+
+.search-icon {
+    background-color: #FF2020;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; 
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%; 
+  }
+
+.bike-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.bike-card {
+    width: 356px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #ff2020;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bike-image {
+    width: 50;
+    height: 50;
+    
+}
+
+.bike-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.bike-brand {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.bike-model {
+    font-size: 16px;
+    color: #555;
+}
+
+.bike-spec {
+    font-size: 14px;
+    color: #777;
+}
+
+.rent-button {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #ff2020;
+    color: #fcf1fd;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.rent-button:hover {
+    background-color: #e60000;
+}
